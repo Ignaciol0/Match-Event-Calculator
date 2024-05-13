@@ -1,0 +1,15 @@
+Match Shotmap
+G. Campi
+65'
+xG
+0.01
+xGOT
+-
+Outcome
+Miss
+Situation
+Corner
+Shot Type
+Head
+Goal Zone
+Left

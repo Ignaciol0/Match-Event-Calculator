@@ -1,0 +1,257 @@
+IP address	Port	Country, City	Speed	Type	Anonymity	Latest update
+8.219.107.199	80	Singapore	
+1360 ms
+
+HTTP	Average	2 minutes
+141.101.123.26	80		
+200 ms
+
+HTTP	no	2 minutes
+172.67.185.183	80	United States	
+160 ms
+
+HTTP	no	2 minutes
+172.67.181.232	80	United States	
+120 ms
+
+HTTP	no	2 minutes
+45.131.4.19	80	Netherlands	
+160 ms
+
+HTTP	no	2 minutes
+45.131.208.86	80	Netherlands	
+100 ms
+
+HTTP	no	2 minutes
+63.141.128.77	80	United States	
+120 ms
+
+HTTP	no	2 minutes
+8.219.194.170	80	Singapore	
+1340 ms
+
+HTTP	Average	2 minutes
+8.219.186.189	80	Singapore	
+1340 ms
+
+HTTP	Average	2 minutes
+8.219.100.168	80	Singapore	
+1340 ms
+
+HTTP	Average	2 minutes
+45.14.174.67	80	Germany	
+500 ms
+
+HTTP	no	2 minutes
+23.227.38.138	80	Canada	
+300 ms
+
+HTTP	no	2 minutes
+45.131.5.214	80	Netherlands	
+400 ms
+
+HTTP	no	2 minutes
+45.131.7.60	80	Netherlands	
+700 ms
+
+HTTP	no	2 minutes
+173.245.49.5	80	France Paris	
+40 ms
+
+HTTP	no	2 minutes
+173.245.49.31	80	France Paris	
+20 ms
+
+HTTP	no	2 minutes
+172.64.142.76	80	United States	
+200 ms
+
+HTTP	no	2 minutes
+172.67.180.57	80	United States	
+160 ms
+
+HTTP	no	2 minutes
+185.162.231.239	80	Armenia	
+300 ms
+
+HTTP	no	2 minutes
+185.162.229.80	80	Armenia	
+660 ms
+
+HTTP	no	2 minutes
+185.162.229.178	80	Armenia	
+180 ms
+
+HTTP	no	2 minutes
+45.14.174.233	80	Germany	
+100 ms
+
+HTTP	no	2 minutes
+45.12.31.93	80	Romania	
+100 ms
+
+HTTP	no	2 minutes
+45.14.174.154	80	Germany	
+300 ms
+
+HTTP	no	2 minutes
+173.245.49.116	80	France Paris	
+40 ms
+
+HTTP	no	2 minutes
+185.162.231.119	80	Armenia	
+120 ms
+
+HTTP	no	2 minutes
+45.14.174.186	80	Germany	
+100 ms
+
+HTTP	no	2 minutes
+45.14.174.52	80	Germany	
+300 ms
+
+HTTP	no	2 minutes
+45.14.174.213	80	Germany	
+100 ms
+
+HTTP	no	2 minutes
+23.227.38.215	80	Canada	
+220 ms
+
+HTTP	no	2 minutes
+172.67.172.12	80	United States	
+60 ms
+
+HTTP	no	2 minutes
+141.193.213.136	80	United States	
+260 ms
+
+HTTP	no	2 minutes
+185.238.228.192	80	Spain	
+260 ms
+
+HTTP	no	2 minutes
+172.67.185.169	80	United States	
+40 ms
+
+HTTP	no	2 minutes
+172.67.192.44	80	United States	
+140 ms
+
+HTTP	no	2 minutes
+185.238.228.84	80	Spain	
+200 ms
+
+HTTP	no	2 minutes
+172.64.172.2	80	United States	
+200 ms
+
+HTTP	no	2 minutes
+141.101.123.250	80		
+220 ms
+
+HTTP	no	2 minutes
+172.64.94.22	80	United States	
+100 ms
+
+HTTP	no	2 minutes
+141.101.121.142	80		
+200 ms
+
+HTTP	no	2 minutes
+141.101.122.67	80		
+220 ms
+
+HTTP	no	2 minutes
+141.101.123.83	80		
+220 ms
+
+HTTP	no	2 minutes
+141.101.123.236	80		
+200 ms
+
+HTTP	no	2 minutes
+172.67.72.232	80	United States	
+200 ms
+
+HTTP	no	2 minutes
+45.131.208.97	80	Netherlands	
+300 ms
+
+HTTP	no	2 minutes
+173.245.49.139	80	France Paris	
+160 ms
+
+HTTP	no	2 minutes
+141.193.213.32	80	United States	
+180 ms
+
+HTTP	no	2 minutes
+45.131.6.60	80	Netherlands	
+300 ms
+
+HTTP	no	2 minutes
+5.182.34.43	80	Italy Milan	
+100 ms
+
+HTTP	no	2 minutes
+5.182.34.95	80	Italy Milan	
+120 ms
+
+HTTP	no	2 minutes
+5.182.34.100	80	Italy Milan	
+100 ms
+
+HTTP	no	2 minutes
+5.182.34.163	80	Italy Milan	
+300 ms
+
+HTTP	no	2 minutes
+5.182.34.171	80	Italy Milan	
+100 ms
+
+HTTP	no	2 minutes
+172.67.182.107	80	United States	
+280 ms
+
+HTTP	no	2 minutes
+173.245.49.13	80	France Paris	
+40 ms
+
+HTTP	no	2 minutes
+173.245.49.56	80	France Paris	
+40 ms
+
+HTTP	no	2 minutes
+172.64.173.27	80	United States	
+200 ms
+
+HTTP	no	2 minutes
+172.67.180.31	80	United States	
+120 ms
+
+HTTP	no	2 minutes
+185.162.230.185	80	Armenia	
+380 ms
+
+HTTP	no	2 minutes
+45.12.31.66	80	Romania	
+280 ms
+
+HTTP	no	2 minutes
+185.162.230.2	80	Armenia	
+160 ms
+
+HTTP	no	2 minutes
+185.162.228.144	80	Armenia	
+100 ms
+
+HTTP	no	2 minutes
+185.162.231.12	80	Armenia	
+120 ms
+
+HTTP	no	2 minutes
+45.12.31.213	80	Romania	
+280 ms
+
+HTTP	no	2 minutes

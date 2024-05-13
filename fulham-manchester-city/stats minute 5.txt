@@ -1,0 +1,57 @@
+47%
+Ball possession
+53%
+0
+Total shots
+0
+0
+Shots on target
+0
+0
+Shots off target
+0
+0
+Blocked shots
+0
+1
+Corner kicks
+0
+1
+Fouls
+0
+0
+Free kicks
+1
+0
+Goal kicks
+1
+10
+Passes
+16
+9 (90%)
+Accurate passes
+16 (100%)
+3/4 (75%)
+Long balls
+0/0 (0%)
+0/4 (0%)
+Crosses
+0/0 (0%)
+5
+Possession lost
+2
+1
+Duels won
+2
+0
+Aerials won
+1
+1
+Tackles
+0
+0
+Interceptions
+1
+0
+Clearances
+2

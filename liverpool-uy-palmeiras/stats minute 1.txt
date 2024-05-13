@@ -1,0 +1,24 @@
+0.03
+Expected Goals (xG)
+0.00
+0%
+Ball possession
+100%
+0
+Total shots
+0
+0
+Shots on target
+0
+0
+Shots off target
+0
+0
+Blocked shots
+0
+0
+Passes
+2
+0 (0%)
+Accurate passes
+2 (100%)

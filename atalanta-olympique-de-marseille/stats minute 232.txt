@@ -1,0 +1,15 @@
+Match Shotmap
+T. Koopmeiners
+80'
+xG
+0.02
+xGOT
+0.05
+Outcome
+Attempt saved
+Situation
+Assisted
+Shot Type
+Left footed
+Goal Zone
+High centre
