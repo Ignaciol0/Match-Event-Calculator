@@ -1,0 +1,81 @@
+0.01
+Expected Goals (xG)
+0.12
+54%
+Ball possession
+46%
+2
+Total shots
+2
+1
+Shots on target
+0
+1
+Shots off target
+2
+0
+Blocked shots
+0
+1
+Corner kicks
+0
+1
+Offsides
+2
+3
+Fouls
+6
+6
+Free kicks
+3
+5
+Throw-ins
+5
+2
+Goal kicks
+2
+1
+Shots inside box
+1
+1
+Shots outside box
+1
+0
+Goalkeeper saves
+1
+0.00
+Goals prevented
+0.03
+226
+Passes
+192
+206 (91%)
+Accurate passes
+173 (90%)
+10/19 (53%)
+Long balls
+5/14 (36%)
+0/2 (0%)
+Crosses
+0/2 (0%)
+6/7 (86%)
+Dribbles
+2/3 (67%)
+36
+Possession lost
+33
+23
+Duels won
+14
+6
+Aerials won
+1
+5
+Tackles
+8
+2
+Interceptions
+2
+4
+Clearances
+5
