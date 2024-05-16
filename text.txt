@@ -1,0 +1,32 @@
+This is the solution to one excersize. 'Calcular los costes parciales (de cada proceso en cada organización) y el coste global
+como media ponderada de ambos costes. Decidir qué opción es más adecuada, y establecer
+ventajas e inconvenientes (atendiendo a otros procesos).
+Índice B+ autor:
+coincidencia(autor) = 2.25*106 / 1.875 * 105 = 12 reg/valor
+k*(1+14.9 + 1 + 12*7) + 7 <= 2048 => k = ( 2041/100,9)lower_bound = 20 => kmin = ((20+1)/2 ) lower_bound= 10
+m*7 + (m-1)*15,9 <= 2048 => m = ( (2048+15,9)/22,9 )lower_bound = 90 => mmin = ( (90+1)/2 )lower_bound = 45
+#hojas = 187500 /10 = 18750 nodos
+#nodos (n-1) = (18750 /45 )lower_bound = 416 nodos
+#nodos (n-2) = (416/45 )lower_bound = 9 nodos
+#nodos (n-3) = (9 /45 )lower_bound (0,2) =>raíz (1 nodo)
+Profundidad n=4, tamaño= 18750+416+9+1 = 19176 nodos (38352 KB)
+Índice B* ISBN
+m*7 + k*(13+7) <= 2048 ,, m=k+1=> k = ( 2041/27 )lower_bound = 75 => kmin = ( 75*2 / 3 )lower_bound = 50 => mmin = 51
+n<=1+log51 ((2.25*106 +1)/ 2) => n = ( 4,54 )lower_bound = 4
+Profundidad n=4, tamaño= 2.25*106 / 50 = 45000 nodos (90000 KB)
+N(O1) = N(O2) = 2.25*106 / 25 = 90000 cubos
+r'(O3) = 1.1% * 2.25*106 = 24750 registros => N’(O3) = 24750 /25 = 990 cubos
+C(O1, P1) = (N+1)/2 + 1 = 90001/2 +1 = 180006 accesos a disco
+C(O1, P2) = (n1 -1) + 12 *4 = 51 accesos
+C(O1, P) = (180006+51) /2 = 90028,5 accesos
+C(O2, P1) = (n2-1) + 1*4 +1*4 = 11 accesos
+C(O2, P2) = 4*(log2 ( min(90000, 187500)+1) +  (12+1) / 25  ) = 4* (17 + 1) = 72 accesos
+C(O2, P) = (11+18)/2= 41,5 accesos
+C(O3, P1) = 4*((150000 +1 )/2 +1) = 300006 accesos
+C(O3, P2) = 4*(1+990) = 3964 accesos
+C(O3, P) = (300006 + 3964)/2 =151985 accesos
+Es preferible la O2, si bien presenta el riesgo de degeneración con borrados+inserciones'
+
+
+
+
