@@ -1,0 +1,93 @@
+41%
+Ball possession
+59%
+0.06
+Expected Goals (xG)
+0.09
+1
+Total shots
+4
+0
+Corner kicks
+4
+1
+Fouls
+1
+59
+Passes
+81
+4
+Tackles
+0
+1
+Total shots
+4
+0
+Shots on target
+0
+0
+Hit woodwork
+0
+1
+Shots off target
+1
+0
+Blocked shots
+3
+1
+Shots inside box
+4
+0
+Shots outside box
+0
+2
+Touches in penalty area
+11
+1
+Offsides
+1
+49
+Accurate passes
+70
+1
+Throw-ins
+1
+1/4 (25%)
+Final third phase
+9/19 (47%)
+4
+Final third entries
+8
+2/7 (29%)
+Long balls
+7/10 (70%)
+1/1 (100%)
+Crosses
+2/6 (33%)
+40%
+Duels
+57%
+5/7 (71%)
+Ground duels
+2/7 (29%)
+1/8 (13%)
+Aerial duels
+6/7 (86%)
+75%
+Tackles won
+0%
+4
+Total tackles
+0
+0
+Interceptions
+1
+9
+Recoveries
+7
+6
+Clearances
+0
+2
+Goal kicks
+1

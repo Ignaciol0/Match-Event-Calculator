@@ -20,7 +20,7 @@ C(O1, P1) = (N+1)/2 + 1 = 90001/2 +1 = 180006 accesos a disco
 C(O1, P2) = (n1 -1) + 12 *4 = 51 accesos
 C(O1, P) = (180006+51) /2 = 90028,5 accesos
 C(O2, P1) = (n2-1) + 1*4 +1*4 = 11 accesos
-C(O2, P2) = 4*(log2 ( min(90000, 187500)+1) +  (12+1) / 25  ) = 4* (17 + 1) = 72 accesos
+C(O2, P2) = 4*(log2 ( min(90000, 187500)+1) + ( (12+1) / 25 )lower_bound ) = 4* (17 + 1) = 72 accesos
 C(O2, P) = (11+18)/2= 41,5 accesos
 C(O3, P1) = 4*((150000 +1 )/2 +1) = 300006 accesos
 C(O3, P2) = 4*(1+990) = 3964 accesos
@@ -30,3 +30,83 @@ Es preferible la O2, si bien presenta el riesgo de degeneración con borrados+in
 
 
 
+A traffic control system is being implanted over a restricted access zone. The required storage will have
+too many accesses to the file ‘vehicles’ (with 5·105
+ records sized 168 B each). The search keys are K1,
+K2, and K3, of 12, 17, and 15 average bytes each, respectively. It is held in a direct access media with
+block sized 2KB. It is needed to make a decision about the most appropriate organization in order to
+optimize the efficiency (measured in number of accesses to media).
+It should be taken into account that the set of relevant processes is P = {P1, P2, P3}, for which processes
+the relative frequencies are (P) = {60%, 20%, 20%}, and their descriptions are the following:
+P1: Record update: selection by identification key K1; (the values of) both keys K1
+and K2 are not altered, but the value of key K3 is altered.
+P2: Selective query by not univocal key K2 (25 average records per value).
+P3: Selective query by not univocal key K3 (which domain has 625 different values).
+The rest of processes’ performance is not crucial, so they won’t be observed for making a final decision,
+yet organization degeneration (in case) must be pointed out as a drawback. The administrator has a hash
+function onto N=65.000 for K1 which shows an overflow rate of 0,1%. All the posed organizations are
+non-consecutive with BS=1 and distributed free space for modifications (PCTFREE=10%). The
+modification rate is RM=30% daily, but thanks to the distributed free space every modified record fits in
+its original bucket. The descriptions of the three candidates are the next:
+O1: non-consecutive serial.
+O2: hashed on CD = K1, and ‘independent serial area’ overflow policy.
+O3: non-consecutive sequential with sorting key K3.
+TO DO
+a) Calculate the initial global cost for each organization (number of accesses) and its real density, from
+the fact that the ideal density is 92%. Fill the following table
+ O1: serial nc. O2: dir. K1 O3: sec. nc. K3
+ideal density 92% 92% 92%
+real density 75,5% 58% 75,5%
+oc. density 100% 76,85% 100%
+C(Oi,P1) 25001,5 2 25002,5
+C(Oi,P2) 50.000 65.050 50.000
+C(Oi,P3) 50.000 65.050 91
+C(Oi,P) 35.000,9 26.021,2 25.019,7
+di=92%= useful/real=useful/168 => useful=168B*0,92 =154,56 B
+BS =1 bq = 2KB => BE = (2048B-0)*0.9 / 168 = 10 rec/buckets
+r= 500.000
+O1: serial non-consecutive.
+N= r rec / BE rec/buckets =50.000 buckets
+dr(O1) = 500.000 rec * 154,56 B/rec / 50000 buckets * 2048 B/buckets = 75,5%
+C(O1,P1) = (N+1)/2 + 1 = 25001,5 acc buckets = 25001,5 *1 acc
+C(O1,P2) = N = 50.000 acc
+C(O1,P3) = C(O1,P2)
+C(O1,P) = 0,6* 25001,5 + 0,4*50000 = 35.000,9 acc
+O2: hashed bt HK = K1, and serial overflow management.
+N’= r’ / BE = 0,001* 500.000 / 10 = 500 rec / 10 rec/buckets = 50 buckets
+dr(O2) = 500.000 rec * 154,56 B/rec / (65000 + 50) buckets * 2048 B/buckets= 58%
+doc(O2) = (r-r’) / 10 * 65000 = 76,85%
+C(O2,P1) = 1+Pdesb * (N’+1)/2 + 1 = 2 + 0,001*51/2 = 2,025 acc =2 acc
+C(O2,P2) = N + N’ = 65000 + 50 acc buckets = 65.050 acc
+C(O2,P3) = C(O2,P2)
+C(O2,P) = 0,6*2 + 0,4* 65.050 acc = 26.021,2 acc
+O3: sequential non-consecutive by physical sorting key K3.
+N(O3)=N(O1) => dr(O3) = dr(O1)
+C(O3,P1) = delete + reinsert = (select + 1 write) + (1 write) = (N+1)/2 +2 = 25002,5 acc
+C(O3,P2) = N = C(O1,P2)
+C(O3,P3) = log2(min(N, card(domain))+1) + (k+1)/BE = (log2 626)lower_bound + (801/10)lower_bound = 10 +81 = 91
+C(O3,P) = 0,6 * 25002,5 + 0,2 * 50000 + 0,2 * 91 = 25.019,7 acc
+
+
+
+There is a table (connections) with 84,000 rows that occupy 50,000 buckets (BS = 4 blocks per bucket),
+on a disk with block size 1024 B. Processes affecting this file are described as follows:
+• update connections set reviewed = sysdate where IP = value;
+• select * from connections where reviewed BETWEEN value1 AND value2;
+The relative frequency of the query (P1) is 25% (that of the modification P2 is 75%). The IP attribute is
+encoded in 4B (constant size) and is an identifier. The attribute ‘reviewed’ is a date and time, encoded
+in 7B (constant size), and showing 1500 different values. Process P2 returns (on average) 280 rows. The
+DBMS has pointers sized 4B.
+It is requested to perform the pertinent calculations about B-tree like indexes on the IP indexation key
+(I1) and B+ tree like index structure on the indexation key ‘reviewed’ (I2), and the base structure (serial
+non-consecutive). Provide the orders and all relevant parameters for both tree-like structures. 
+
+Partial cost of first process on O2:
+C(O2,P1) = scan IP index + access 1 bucket + write 1 bucket + actualize index reviewed (scan & write)
++ actualize (add) index reviewed (scan & write) = (n1-1) + 1 *4 + 1 * 4 + 2* n2 = 16 accesses
+Partial cost of second process on O2:
+scan index reviewed + serial extension through leaf chaining + access all records
+280/56=5 values, with kmin=2: (k+1)/2= 3 leaf nodes (the extension)
+C(O2,P2) = (3-1) + 3 + 280 * 4 = 1125 accesses
+Global cost of set of processes P on O2:
+C(O2,P) = 0.75 * 16 + 0.25 * 1125 = 293.25 accesses
