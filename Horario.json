@@ -1,0 +1,271 @@
+{"Schedule":  [
+    {
+        "date": "17 junio",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Belgica", "Eslovaquia"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Austria", "Francia"]
+            }
+        ]
+    },
+    {
+        "date": "18 junio",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Turquia", "Georgia"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Portugal", "Republica Checa"]
+            }
+        ]
+    },
+    {
+        "date": "19 junio",
+        "matches": [
+            {
+                "time": "15:00",
+                "teams": ["Croacia", "Albania"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Alemania", "Hungria"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Escocia", "Suiza"]
+            }
+        ]
+    },
+    {
+        "date": "20 junio",
+        "matches": [
+            {
+                "time": "15:00",
+                "teams": ["Eslovenia", "Serbia"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Dinamarca", "Inglaterra"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Espana", "Italia"]
+            }
+        ]
+    },
+    {
+        "date": "21 junio",
+        "matches": [
+            {
+                "time": "15:00",
+                "teams": ["Eslovaquia", "Ucrania"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Polonia", "Austria"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Paises Bajos", "Francia"]
+            }
+        ]
+    },
+    {
+        "date": "22 junio",
+        "matches": [
+            {
+                "time": "15:00",
+                "teams": ["Georgia", "Republica Checa"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Turquia", "Portugal"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Belgica", "Rumania"]
+            }
+        ]
+    },
+    {
+        "date": "23 junio",
+        "matches": [
+            {
+                "time": "21:00",
+                "teams": ["Suiza", "Alemania"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Escocia", "Hungria"]
+            }
+        ]
+    },
+    {
+        "date": "24 junio",
+        "matches": [
+            {
+                "time": "21:00",
+                "teams": ["Croacia", "Italia"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Albania", "Espana"]
+            }
+        ]
+    },
+    {
+        "date": "25 junio",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Francia", "Polonia"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Paises Bajos", "Austria"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Dinamarca", "Serbia"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Inglaterra", "Eslovenia"]
+            }
+        ]
+    },
+    {
+        "date": "26 junio",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Ucrania", "Belgica"]
+            },
+            {
+                "time": "18:00",
+                "teams": ["Eslovaquia", "Rumania"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Republica Checa", "Turquia"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Georgia", "Portugal"]
+            }
+        ]
+    },
+    {
+        "date": "29 JUNIO",
+        "matches": [
+            {
+                "stage": "Octavos de final",
+                "time": "18:00",
+                "teams": ["2o A", "2o B"]
+            },
+            {
+                "stage": "Octavos de final",
+                "time": "21:00",
+                "teams": ["1o A", "2o C"]
+            }
+        ]
+    },
+    {
+        "date": "30 JUNIO",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["1o C", "3o D/E/F"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["1o B", "3o A/D/E/F"]
+            }
+        ]
+    },
+    {
+        "date": "01 JULIO",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["2o D", "2o E"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["1o F", "3o A/B/C"]
+            }
+        ]
+    },
+    {
+        "date": "02 JULIO",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["1o E", "3o A/B/C/D"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["1o D", "2o F"]
+            }
+        ]
+    },
+    {
+        "date": "05 JULIO",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Cuartos 1", "Cuartos 2"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Cuartos 3", "Cuartos 4"]
+            }
+        ]
+    },
+    {
+        "date": "06 JULIO",
+        "matches": [
+            {
+                "time": "18:00",
+                "teams": ["Cuartos 7", "Cuartos 8"]
+            },
+            {
+                "time": "21:00",
+                "teams": ["Cuartos 5", "Cuartos 6"]
+            }
+        ]
+    },
+    {
+        "date": "09 JULIO",
+        "matches": [
+            {
+                "time": "21:00",
+                "teams": ["Semifinalista 1", "Semifinalista 2"]
+            }
+        ]
+    },
+    {
+        "date": "10 JULIO",
+        "matches": [
+            {
+                "time": "21:00",
+                "teams": ["Semifinalista 3", "Semifinalista 4"]
+            }
+        ]
+    },
+    {
+        "date": "14 JULIO",
+        "matches": [
+            {
+                "time": "21:00",
+                "teams": ["Semi 1", "Semi 2"]
+            }
+        ]
+    }
+]}
